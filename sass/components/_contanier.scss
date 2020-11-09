@@ -1,0 +1,23 @@
+.contanier {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    .header & {
+        display: flex;
+        align-items: center;
+    }
+    .advantage & {
+        height: 290px;
+    }
+    .service & {
+        height: 386px;
+    }
+    .client & {
+        margin-bottom: 94px;
+    }
+    .footer & {
+        display: flex;
+    }
+  }
