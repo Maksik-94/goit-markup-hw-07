@@ -2,7 +2,6 @@
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
@@ -770,19 +769,15 @@ ol {
 }
 
 .mailing-contact {
-  padding-left: 16px;
-  padding-top: 10px;
+  padding-left: 12px;
   width: 358px;
   outline: none;
   background-color: transparent;
+  color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-}
-
-.mailing-contact::placeholder {
-  padding-left: 12px;
 }
 
 .mailing-btn {
