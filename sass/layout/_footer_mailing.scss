@@ -5,7 +5,7 @@
     margin-bottom: 20px;
     width: 219px;
     height: 16px;
-  
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.142;
@@ -19,18 +19,15 @@
     justify-content: start;
   }
   &-contact {
-    padding-left: 16px;
-    padding-top: 10px;
+    padding-left: 12px;
     width: 358px;
     outline: none;
     background-color: transparent;
+    color: $color-white;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    &::placeholder {
-      padding-left: 12px;
-    }
   }
   &-btn {
     margin-left: 12px;
@@ -41,7 +38,7 @@
     margin-left: 12px;
     width: 200px;
     height: 50px;
-  
+
     font-family: $secondary-font;
     font-weight: 700;
     font-size: 16px;
@@ -49,7 +46,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     border: 0;
-  
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: $color-sacondary;
